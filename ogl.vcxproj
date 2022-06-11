@@ -142,10 +142,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\launcher.h" />
+    <ClCompile Include="src\app\learn.cpp" />
+    <ClCompile Include="src\engine\appinterface.cpp" />
+    <ClCompile Include="src\engine\engine.cpp" />
     <ClCompile Include="src\engine\glad.c" />
+    <ClCompile Include="src\engine\logger.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\app\learn.h" />
+    <ClInclude Include="src\engine\appinterface.h" />
+    <ClInclude Include="src\engine\engine.h" />
+    <ClInclude Include="src\engine\logger.h" />
     <ClInclude Include="src\engine\ogl.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

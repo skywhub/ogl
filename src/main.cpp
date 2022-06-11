@@ -1,9 +1,13 @@
-#include "engine/ogl.h"
-#include <cstdlib>
-
+#include "launcher.h"
+#include "engine/engine.h"
+#include LAUNCHER
 
 int main()
 {
-
-	return EXIT_SUCCESS;
+    LoadApp();
+    if (GEngine.Initialize(&app) != 0)
+    {
+        return EXIT_FAILURE;
+    }
+    return GEngine.Run();
 }
