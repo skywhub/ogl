@@ -84,6 +84,5 @@ int Engine::Run()
         glfwSwapBuffers(mWindow);
         glfwPollEvents();
     }
-    UnInitialize();
     return EXIT_SUCCESS;
 }

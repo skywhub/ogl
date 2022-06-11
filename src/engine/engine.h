@@ -8,11 +8,17 @@
 class Engine
 {
 public:
+	~Engine() 
+	{ 
+		UnInitialize(); 
+	}
+
 	int Initialize(AbstractApp *InApp);
 
 	int Run();
 
 protected:
+
 	void UnInitialize();
 
 private:
