@@ -4,8 +4,8 @@
 
 int main()
 {
-    LOG("App path:", LAUNCHER);
-    LoadApp();
+    AppClass app;
+    LOG("App :", app.GetName());
     if (GEngine.Initialize(&app) != 0)
     {
         return EXIT_FAILURE;

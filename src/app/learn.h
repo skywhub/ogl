@@ -1,13 +1,16 @@
 #pragma once
 #include "../engine/appinterface.h"
+#define AppClass LearnApp
 
 class LearnApp : public AbstractApp
 {
+public:
 	const char* GetName() override
 	{
 		return "LearnOpenGL";
 	}
 
+protected:
 	void OnStart() override
 	{
 
@@ -28,5 +31,3 @@ class LearnApp : public AbstractApp
 
 	}
 };
-
-#define LoadApp() LearnApp app
