@@ -24,7 +24,7 @@
     <ClCompile Include="src\engine\engine.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\app\learn.cpp">
+    <ClCompile Include="src\app\learn\app.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\engine\appinterface.cpp">
@@ -33,7 +33,7 @@
     <ClCompile Include="src\engine\logger.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\launcher.h">
+    <ClCompile Include="src\app\launcher.h">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -44,7 +44,7 @@
     <ClInclude Include="src\engine\engine.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\app\learn.h">
+    <ClInclude Include="src\app\learn\app.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\engine\appinterface.h">

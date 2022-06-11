@@ -1,1 +1,0 @@
-#define LAUNCHER "app/learn.h"
