@@ -156,7 +156,6 @@
     <ClInclude Include="src\engine\engine.h" />
     <ClInclude Include="src\engine\logger.h" />
     <ClInclude Include="src\engine\ogl.h" />
-    <ClInclude Include="src\utils\static_string.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
